@@ -1,0 +1,61 @@
+/* TeamCard container */
+.team-card {
+  list-style-type: none;
+  margin: 15px;
+  width: 280px;
+  border: 2px solid #ffffff;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1); /* slight transparent bg */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  text-align: center;
+}
+
+/* hover effect */
+.team-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+}
+
+/* Link styles */
+.team-link {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Team logo */
+.team-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-right: 15px;
+}
+
+/* Team name */
+.team-name {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* ------------ RESPONSIVE ------------ */
+
+/* Mobile */
+@media (max-width: 600px) {
+  .team-card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .team-logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .team-name {
+    font-size: 16px;
+  }
+}
