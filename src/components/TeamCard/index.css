@@ -2,6 +2,7 @@
 .team-card {
   list-style-type: none;
   margin: 15px;
+  height: 280px;
   width: 280px;
   border: 2px solid #ffffff;
   border-radius: 12px;

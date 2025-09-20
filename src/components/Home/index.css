@@ -1,11 +1,14 @@
 .bg-container{
-    height: 160vh;
+
     width: 100vw;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+     background-size: cover;        /* Makes image cover entire area */
+    background-position: center;   /* Keeps image centered */
+    background-repeat: no-repeat; 
 }
 
 .icon-container{
